@@ -1,8 +1,6 @@
-/// Support for doing something awesome.
-///
-/// More dartdocs go here.
-library;
+/// A 1:1 port of Rust's `Result<T, E>` and `Option<T>` for Dart.
+library result_rust;
 
-export 'src/result_rust_base.dart';
-
-// TODO: Export any libraries intended for clients of this package.
+export 'src/exceptions.dart';
+export 'src/option.dart';
+export 'src/result.dart';
