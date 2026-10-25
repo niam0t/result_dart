@@ -1,4 +1,4 @@
-import 'package:result_rust/result_rust.dart';
+import 'package:result_dart/result_dart.dart';
 
 Future<void> main() async {
   final result = splitName("Alex Bob");
